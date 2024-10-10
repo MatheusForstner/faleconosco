@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {  
+    font-family: 'Aptos Display';
+    background: linear-gradient(#000000 10%, #001d40 90%);
+    background-repeat: no-repeat;
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 10px;
+    display: flex;
+}
+
+.forms{
+    max-width: 100%;
+    background: #fff;
+    width: 800px;
+    padding: 25px 40px 10px 40px;
+}
+h1 {
+    text-align: center;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+button {
+    background-color: #0091E4;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover {
+    background: #4cae4c;
+}
+
+.box{
+    display: inline-block;
+    margin: 20px;
+}
+
+.box-text{
+    margin: 10px;
+    margin-left: 1000px;
+}
+
+navbar {
+    display: flex;
+    align-items: center;
+    background-color: #001d40;
+}
+
+a {
+    color: white;
+    text-decoration: none; 
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #0091E4;
+}
+
+footer {
+    background-color: #000000;
+}
+
+.container-footer{
+    display: flex;
+    color: white;
+}
+
+.credits-left{
+    margin: 10px;
+}
+
+.credits-right{
+    margin: 10px;
+    margin-left: 1050px;
+}
+
+
+.forms h1 {
+    text-align: center;
+    color: #001d40;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.forms img{
+    margin: 20px;
+}
+button {
+    background-color: #001d40;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+button:hover {
+    background-color: #0056b3;
+}
